@@ -1,0 +1,9 @@
+{
+  "name": "grafana-pdf-proxy",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "AGPL-3.0-or-later",
+  "dependencies": {
+    "puppeteer": "^10.4.0"
+  }
+}
