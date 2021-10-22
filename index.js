@@ -101,7 +101,7 @@ function startServer(options) {
 const server = startServer({
   port: process.env.GRAFANA_PDF_BIND_PORT,
   host: process.env.GRAFANA_PDF_BIND_HOST || '::1',
-  backendUrl: process.env.GRAFANA_PDF_BACKEND_URL || 'http://[::1]:3000',
+  backendUrl: process.env.GRAFANA_PDF_BACKEND_URL || 'http://localhost:3000',
   backendUser: process.env.GRAFANA_PDF_BACKEND_USER,
   backendPass: process.env.GRAFANA_PDF_BACKEND_PASS,
   executablePath: process.env.GRAFANA_PDF_CHROME_PATH,
