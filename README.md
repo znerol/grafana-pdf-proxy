@@ -9,13 +9,13 @@ Installation
 ------------
 
 ```
-yarn install
+npm install
 ```
 
 Optionally skip installation of `chromium` by puppeteer.
 
 ```
-PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true yarn install
+PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true npm install
 ```
 
 Environment
